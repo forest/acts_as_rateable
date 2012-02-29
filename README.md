@@ -3,7 +3,7 @@ ActsAsRateable
 A Rails 3.2 ready gem that adds rateable functionality to models.
 
 ## Install
-* gem 'lessonplanet-acts_as_rateable', :require => 'acts_as_rateable'
+* ```gem 'lessonplanet-acts_as_rateable', :require => 'acts_as_rateable'```
 * Create a new rails migration and add the following self.up and self.down methods
  
 ```ruby
