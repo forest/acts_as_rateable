@@ -27,6 +27,7 @@ A Rails 3.2 ready gem that adds rateable functionality to models.
 ## Usage
 
 Make you ActiveRecord model act as rateable:
+
 ```ruby
  class Model < ActiveRecord::Base
  	acts_as_rateable
@@ -34,11 +35,13 @@ Make you ActiveRecord model act as rateable:
 ```
  
 Add a rating to a model instance:
+
 ```ruby
  object.rate_it, 1, current_user
 ```
  
 Get average rating:
+
 ```ruby
  Model.last.rating
 ```
