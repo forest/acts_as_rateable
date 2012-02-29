@@ -37,7 +37,7 @@ Make you ActiveRecord model act as rateable:
 Add a rating to a model instance:
 
 ```ruby
- object.rate_it, 1, current_user
+ object.rate_it 1, current_user
 ```
  
 Get average rating:
